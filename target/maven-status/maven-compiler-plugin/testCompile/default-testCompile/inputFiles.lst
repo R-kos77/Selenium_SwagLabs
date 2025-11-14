@@ -1,0 +1,14 @@
+C:\Users\keysy\eclipse-workspace-automation\Selenium_SwagLabs\src\test\java\config\ConfigReader.java
+C:\Users\keysy\eclipse-workspace-automation\Selenium_SwagLabs\src\test\java\config\Constants.java
+C:\Users\keysy\eclipse-workspace-automation\Selenium_SwagLabs\src\test\java\pages\CartPage.java
+C:\Users\keysy\eclipse-workspace-automation\Selenium_SwagLabs\src\test\java\pages\CheckoutPage.java
+C:\Users\keysy\eclipse-workspace-automation\Selenium_SwagLabs\src\test\java\pages\LoginPage.java
+C:\Users\keysy\eclipse-workspace-automation\Selenium_SwagLabs\src\test\java\pages\ProductsPage.java
+C:\Users\keysy\eclipse-workspace-automation\Selenium_SwagLabs\src\test\java\tests\BaseTest.java
+C:\Users\keysy\eclipse-workspace-automation\Selenium_SwagLabs\src\test\java\tests\CartTest.java
+C:\Users\keysy\eclipse-workspace-automation\Selenium_SwagLabs\src\test\java\tests\CheckoutTest.java
+C:\Users\keysy\eclipse-workspace-automation\Selenium_SwagLabs\src\test\java\tests\LoginTest.java
+C:\Users\keysy\eclipse-workspace-automation\Selenium_SwagLabs\src\test\java\tests\ProductTest.java
+C:\Users\keysy\eclipse-workspace-automation\Selenium_SwagLabs\src\test\java\utils\LoggerUtil.java
+C:\Users\keysy\eclipse-workspace-automation\Selenium_SwagLabs\src\test\java\utils\ScreenshotUtil.java
+C:\Users\keysy\eclipse-workspace-automation\Selenium_SwagLabs\src\test\java\utils\WaitHelper.java
