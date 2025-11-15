@@ -106,3 +106,10 @@ All waits are implemented using WebDriverWait for stability.
 Tests are isolated using a fresh browser session per test.
 
 Page Object Model structure ensures maintainability and scalability.
+
+---
+
+## Author
+**Robel Kiros**  
+- GitHub: R-Kos77 https://github.com/R-kos77/Selenium_SwagLabs  
+- Email: robelalbeta@gmail.com
