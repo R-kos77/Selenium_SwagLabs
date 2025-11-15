@@ -11,6 +11,7 @@ public class CartPage {
     private By addToCartButton = By.id("add-to-cart-sauce-labs-backpack");
     private By shoppingCartLink = By.className("shopping_cart_link");
     private By cartItem = By.className("cart_item");
+    private By checkoutButton = By.id("checkout");  // <-- move here
 
     // Constructor
     public CartPage(WebDriver driver) {
@@ -28,5 +29,9 @@ public class CartPage {
 
     public boolean isItemInCart() {
         return driver.findElements(cartItem).size() > 0;
+    }
+
+    public void clickCheckout() {  // <-- move here
+        driver.findElement(checkoutButton).click();
     }
 }

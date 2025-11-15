@@ -9,16 +9,20 @@ public class CartTest extends BaseTest {
 
     @Test
     public void addItemToCartTest() {
-        // Login first
+        System.out.println("Logging in as standard_user...");
         LoginPage loginPage = new LoginPage(driver);
         loginPage.login("standard_user", "secret_sauce");
 
-        // Add item to cart
+        System.out.println("Adding backpack to cart...");
         CartPage cartPage = new CartPage(driver);
         cartPage.addBackpackToCart();
+
+        System.out.println("Opening cart page...");
         cartPage.openCart();
 
-        // Verify item is in cart
+        System.out.println("Verifying item is in cart...");
         Assert.assertTrue(cartPage.isItemInCart(), "Item was not added to cart!");
+
+        System.out.println("Add item to cart test passed.");
     }
 }

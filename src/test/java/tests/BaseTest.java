@@ -7,6 +7,9 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class BaseTest {
 
     protected WebDriver driver;
@@ -16,10 +19,22 @@ public class BaseTest {
         // Setup ChromeDriver automatically
         WebDriverManager.chromedriver().setup();
 
-        // Optional Chrome options
+        // Chrome options
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized"); // maximize window
         // options.addArguments("--headless"); // uncomment to run without GUI
+
+        // Optional: run in incognito mode (extra isolation)
+        options.addArguments("--incognito");
+
+        // Use a fresh Chrome profile to avoid popups and saved passwords
+        options.addArguments("user-data-dir=C:/Selenium/FreshProfile"); // <-- change path as needed
+
+        // Disable Chrome password manager popups
+        Map<String, Object> prefs = new HashMap<>();
+        prefs.put("credentials_enable_service", false);
+        prefs.put("profile.password_manager_enabled", false);
+        options.setExperimentalOption("prefs", prefs);
 
         // Initialize Chrome driver
         driver = new ChromeDriver(options);

@@ -1,37 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-15T02:31:34 EAT" name="Default suite" finished-at="2025-11-15T02:31:40 EAT" duration-ms="5753">
+  <suite started-at="2025-11-15T16:14:23 EAT" name="Selenium SwagLabs Suite" finished-at="2025-11-15T16:15:11 EAT" duration-ms="48368">
     <groups>
     </groups>
-    <test started-at="2025-11-15T02:31:34 EAT" name="Default test" finished-at="2025-11-15T02:31:40 EAT" duration-ms="5753">
+    <test started-at="2025-11-15T16:14:23 EAT" name="Login Tests" finished-at="2025-11-15T16:14:50 EAT" duration-ms="27238">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@4c371370]" started-at="2025-11-15T02:31:34 EAT" name="setUp" finished-at="2025-11-15T02:31:37 EAT" duration-ms="2753" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@4c371370]" started-at="2025-11-15T16:14:23 EAT" name="setUp" finished-at="2025-11-15T16:14:44 EAT" duration-ms="21395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="invalidLoginTest()[pri:0, instance:tests.LoginTest@4c371370]" started-at="2025-11-15T02:31:37 EAT" name="invalidLoginTest" finished-at="2025-11-15T02:31:37 EAT" duration-ms="373" status="PASS">
+        <test-method signature="invalidLoginTest()[pri:0, instance:tests.LoginTest@4c371370]" started-at="2025-11-15T16:14:44 EAT" name="invalidLoginTest" finished-at="2025-11-15T16:14:44 EAT" duration-ms="335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@4c371370]" started-at="2025-11-15T02:31:37 EAT" name="tearDown" finished-at="2025-11-15T02:31:37 EAT" duration-ms="213" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@4c371370]" started-at="2025-11-15T16:14:44 EAT" name="tearDown" finished-at="2025-11-15T16:14:46 EAT" duration-ms="1687" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@4c371370]" started-at="2025-11-15T02:31:37 EAT" name="setUp" finished-at="2025-11-15T02:31:39 EAT" duration-ms="1859" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@4c371370]" started-at="2025-11-15T16:14:46 EAT" name="setUp" finished-at="2025-11-15T16:14:49 EAT" duration-ms="3237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validLoginTest()[pri:0, instance:tests.LoginTest@4c371370]" started-at="2025-11-15T02:31:39 EAT" name="validLoginTest" finished-at="2025-11-15T02:31:39 EAT" duration-ms="324" status="PASS">
+        <test-method signature="validLoginTest()[pri:0, instance:tests.LoginTest@4c371370]" started-at="2025-11-15T16:14:49 EAT" name="validLoginTest" finished-at="2025-11-15T16:14:50 EAT" duration-ms="297" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@4c371370]" started-at="2025-11-15T02:31:39 EAT" name="tearDown" finished-at="2025-11-15T02:31:40 EAT" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@4c371370]" started-at="2025-11-15T16:14:50 EAT" name="tearDown" finished-at="2025-11-15T16:14:50 EAT" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Login Tests -->
+    <test started-at="2025-11-15T16:14:50 EAT" name="Cart Tests" finished-at="2025-11-15T16:14:54 EAT" duration-ms="3970">
+      <class name="tests.CartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CartTest@185a6e9]" started-at="2025-11-15T16:14:50 EAT" name="setUp" finished-at="2025-11-15T16:14:53 EAT" duration-ms="3249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addItemToCartTest()[pri:0, instance:tests.CartTest@185a6e9]" started-at="2025-11-15T16:14:53 EAT" name="addItemToCartTest" finished-at="2025-11-15T16:14:54 EAT" duration-ms="465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@185a6e9]" started-at="2025-11-15T16:14:54 EAT" name="tearDown" finished-at="2025-11-15T16:14:54 EAT" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CartTest -->
+    </test> <!-- Cart Tests -->
+    <test started-at="2025-11-15T16:14:54 EAT" name="Products Tests" finished-at="2025-11-15T16:15:02 EAT" duration-ms="7948">
+      <class name="tests.ProductsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ProductsTest@3cd3e762]" started-at="2025-11-15T16:14:54 EAT" name="setUp" finished-at="2025-11-15T16:14:57 EAT" duration-ms="3368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductCount()[pri:0, instance:tests.ProductsTest@3cd3e762]" started-at="2025-11-15T16:14:57 EAT" name="verifyProductCount" finished-at="2025-11-15T16:14:58 EAT" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductsTest@3cd3e762]" started-at="2025-11-15T16:14:58 EAT" name="tearDown" finished-at="2025-11-15T16:14:58 EAT" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ProductsTest@3cd3e762]" started-at="2025-11-15T16:14:58 EAT" name="setUp" finished-at="2025-11-15T16:15:01 EAT" duration-ms="3289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySorting()[pri:0, instance:tests.ProductsTest@3cd3e762]" started-at="2025-11-15T16:15:01 EAT" name="verifySorting" finished-at="2025-11-15T16:15:02 EAT" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySorting -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductsTest@3cd3e762]" started-at="2025-11-15T16:15:02 EAT" name="tearDown" finished-at="2025-11-15T16:15:02 EAT" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ProductsTest -->
+    </test> <!-- Products Tests -->
+    <test started-at="2025-11-15T16:15:02 EAT" name="Checkout Tests" finished-at="2025-11-15T16:15:06 EAT" duration-ms="4488">
+      <class name="tests.CheckoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CheckoutTest@6ed3ccb2]" started-at="2025-11-15T16:15:02 EAT" name="setUp" finished-at="2025-11-15T16:15:05 EAT" duration-ms="3242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="completeCheckoutFlow()[pri:0, instance:tests.CheckoutTest@6ed3ccb2]" started-at="2025-11-15T16:15:05 EAT" name="completeCheckoutFlow" finished-at="2025-11-15T16:15:06 EAT" duration-ms="990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeCheckoutFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutTest@6ed3ccb2]" started-at="2025-11-15T16:15:06 EAT" name="tearDown" finished-at="2025-11-15T16:15:06 EAT" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CheckoutTest -->
+    </test> <!-- Checkout Tests -->
+    <test started-at="2025-11-15T16:15:06 EAT" name="Logout Test" finished-at="2025-11-15T16:15:11 EAT" duration-ms="4582">
+      <class name="tests.LogoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LogoutTest@7c6908d7]" started-at="2025-11-15T16:15:06 EAT" name="setUp" finished-at="2025-11-15T16:15:10 EAT" duration-ms="3268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logoutTest()[pri:0, instance:tests.LogoutTest@7c6908d7]" started-at="2025-11-15T16:15:10 EAT" name="logoutTest" finished-at="2025-11-15T16:15:11 EAT" duration-ms="1063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogoutTest@7c6908d7]" started-at="2025-11-15T16:15:11 EAT" name="tearDown" finished-at="2025-11-15T16:15:11 EAT" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LogoutTest -->
+    </test> <!-- Logout Test -->
+  </suite> <!-- Selenium SwagLabs Suite -->
 </testng-results>

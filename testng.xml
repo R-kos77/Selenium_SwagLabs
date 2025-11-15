@@ -10,4 +10,19 @@
             <class name="tests.CartTest"/>
         </classes>
     </test>
+        <test name="Products Tests">
+        <classes>
+            <class name="tests.ProductsTest"/>
+        </classes>
+    </test>
+        <test name="Checkout Tests">
+        <classes>
+            <class name="tests.CheckoutTest"/>
+        </classes>
+    </test>
+        <test name="Logout Test">
+        <classes>
+            <class name="tests.LogoutTest"/>
+        </classes>
+    </test>
 </suite>
